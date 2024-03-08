@@ -1,3 +1,7 @@
+.burn{
+    mix-blend-mode: difference;
+    border-radius: 3em;
+}
 .cont img{
     aspect-ratio: 5/5;
     object-fit: cover;
@@ -114,7 +118,7 @@ input{
         visibility: hidden;
     }
     body{
-        background-color: aquamarine;
+        background-color: rgb(172, 178, 249);
     }
 }
 
