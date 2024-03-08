@@ -17,24 +17,24 @@ const Navbar = () => {
   return (
     <>
     <div className=" yn">
-    <img  src='https://i.pinimg.com/736x/57/55/b1/5755b1f4d9246e6d3a39c7ede0a692de.jpg' id='product' alt='product' onClick={handleNavShowToggle} className='h-8'/>
+    <img className='self-center h-11'  src='https://i.pinimg.com/736x/57/55/b1/5755b1f4d9246e6d3a39c7ede0a692de.jpg' id='product' alt='product' onClick={handleNavShowToggle}/>
       <div className="text-white text-lg font-bold ml-3 w-20 justify-start">
-            <img src="https://asset.brandfetch.io/idWdImNSUt/idgdmSMilx.png" alt="flipkart-logo" />
+            <img className='burn' src="https://img.freepik.com/free-vector/gradient-shop-local-logo-design_23-2149613160.jpg" alt="store-logo " />
           </div>
-      <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2rW52CGC3kNhsmGxgzV-IVR3rmlvFgCBzCHf4qI2Xg&s' id='product' alt='product' onClick={handleProShowToggle} className='h-8'/>
+      <img className='self-center h-11' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2rW52CGC3kNhsmGxgzV-IVR3rmlvFgCBzCHf4qI2Xg&s' id='product' alt='product' onClick={handleProShowToggle}/>
 
     </div>
-      <nav className='nn bg-gray-800 p-4 h-15 justify-between'>
+      <nav className='nn bg-gray-800 p-2 h-15 justify-between'>
         <div className="container mx-auto justify-between items-center tot-nav">
 
           <div className="text-white text-lg font-bold ml-3 w-20 justify-start nav-lg">
-            <img src="https://asset.brandfetch.io/idWdImNSUt/idgdmSMilx.png" alt="flipkart-logo" />
+            <img className='burn' src="https://img.freepik.com/free-vector/gradient-shop-local-logo-design_23-2149613160.jpg" alt="store-logo" />
           </div>
 
           <ul className={`space-x-4 justify-end ${toggleNav ? 'nav-side-list' : 'nav-side-list-show'}`}>
           <input className="search "type="search" name="search" id="search" placeholder='Search for Products brand and more' />
             <div className="human  w-7">
-              <img src="https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="human" />
+              <img  src="https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="human" />
             </div>
             <li><a href="/" className="text-white">Login</a></li>
             <div className='cart w-7'>
